@@ -25,16 +25,3 @@ export class HomeComponent implements OnInit {
 
 
    }
-
-  ngOnInit() {
-  }
-  onSubmit() {
-    console.log(this.form);
-    this.http.post('https://seals-server.herokuapp.com/contact-seals', this.form)
-      .subscribe((res) => {
-        console.log(res);
-      }, (err) => {
-        console.log(err);
-      });
-  }
-}
