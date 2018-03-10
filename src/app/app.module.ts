@@ -20,11 +20,12 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  HomeComponent;
+
 
 }

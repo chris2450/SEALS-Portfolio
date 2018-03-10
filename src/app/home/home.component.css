@@ -1,3 +1,10 @@
 p{
     color:red;
+    
+}
+p {
+    position: absolute;
+    left: 300px;
+    right:400px
+    
 }
