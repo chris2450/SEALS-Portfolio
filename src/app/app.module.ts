@@ -6,7 +6,10 @@ import { FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
+import { ContactMeComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import {AuthService} from './_services/auth/auth.service';
 
 
 @NgModule({
@@ -14,15 +17,16 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactMeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
-
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

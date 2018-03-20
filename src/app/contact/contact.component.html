@@ -1,11 +1,6 @@
-<form>
- 
-  Email:<br>
-  <input type="text" name="email" placeholder="email" [(ngModel)]="form.email" name="email">
-  firstName:<br>
-  <input type="text" name="Firstname" placeholder="firstname" 
-  lastName:br>
-  <input type="text" name="lastname" placeholder="lastname" 
-  
-
-/form>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<form (ngSubmit)="onSubmit()">
+  <input type="text" name="email" placeholder="email" [(ngModel)]="userName" name="email">
+  <input type="text" name="message" placeholder="message" [(ngModel)]="userMsg" name="message">
+ <button type="submit">Login</button>
+</form> 
