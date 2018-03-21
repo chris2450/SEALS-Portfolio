@@ -1,3 +1,16 @@
-div{
-    color:green;
+.aboutMeItemsPics{
+    width: 250px;
+    height: 250px;
+    display:block;
+    margin: auto;
+}
+
+#aboutRightContainer{
+    width: 50%;
+    float:right;
+}
+
+#aboutLeftContainer{
+    width: 50%;
+    float:left;;
 }

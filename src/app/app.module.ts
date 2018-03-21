@@ -10,7 +10,9 @@ import { ContactMeComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import {AuthService} from './_services/auth/auth.service';
-
+import { BlogComponent } from './blog/blog.component';
+import { Blog2Component } from './blog2/blog.component';
+import { Blog3Component } from './blog2/blog.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {AuthService} from './_services/auth/auth.service';
     HomeComponent,
     AboutComponent,
     ContactMeComponent,
-    LoginComponent
+    LoginComponent,
+    BlogComponent,
+    Blog2Component
   ],
   imports: [
     BrowserModule,

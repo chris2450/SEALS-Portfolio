@@ -1,0 +1,21 @@
+#contactDiv{
+    display: block;
+    margin: auto;
+    width:625px;
+    padding:10px;
+}
+
+.contactInputs{
+    margin: 5px;
+}
+
+#messageInput{
+    width:500px;
+    height:100px;
+
+}
+
+#blogContainer{
+    display: block !important;
+    margin: auto !important;
+}

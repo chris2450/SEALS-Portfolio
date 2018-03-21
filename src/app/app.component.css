@@ -1,23 +1,11 @@
-
-.content-container {
-    background:#3FA0E1;
-    height:100vh;
-    width :100vw;
-    font-weight:bold;
-    cursor:pointer;
-}
-.cool{
-
+#container{
+    width: 1250px;
+    display:block;
+    margin:auto;
     text-align: center;
-    width: 400px;
-    font-size: 40px;
-    position: fixed;
-    top: 20%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -500px;
-
-    
-
-
+    padding: 5px;
+}
+#navBar{
+    background-color: #00cefb !important;
+    color: #fff !important;
 }

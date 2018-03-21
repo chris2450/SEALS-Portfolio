@@ -1,6 +1,12 @@
-<br/><br/><br/><br/><br/><br/><br/><br/>
-<form (ngSubmit)="onSubmit()">
-  <input type="text" name="email" placeholder="email" [(ngModel)]="userName" name="email">
-  <input type="text" name="message" placeholder="message" [(ngModel)]="userMsg" name="message">
- <button type="submit">Login</button>
-</form> 
+<div id="contactDiv">
+  <form (ngSubmit)="onSubmit()">
+    <input class="contactInputs" type="text" name="Name" placeholder="Name" [(ngModel)]="userName" >
+    <input class="contactInputs" type="text" name="Email" placeholder="email" [(ngModel)]="userEmail">
+    <br/>
+    <input class="contactInputs" type="text" name="PhoneNumber" placeholder="Phone Number" [(ngModel)]="userPhoneNumber" >
+    <br/>
+    <textarea id="messageInput" class="contactInputs" type="text" name="message" placeholder="message" [(ngModel)]="userMsg"></textarea>
+    <br/>
+   <button type="submit" class="btn btn-primary">Login</button>
+  </form> 
+</div>
