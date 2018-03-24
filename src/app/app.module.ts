@@ -12,7 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {AuthService} from './_services/auth/auth.service';
 import { BlogComponent } from './blog/blog.component';
 import { Blog2Component } from './blog2/blog.component';
-import { Blog3Component } from './blog2/blog.component';
+import { Blog3Component } from './blog3/blog.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { Blog3Component } from './blog2/blog.component';
     ContactMeComponent,
     LoginComponent,
     BlogComponent,
-    Blog2Component
+    Blog2Component,
+    Blog3Component,
   ],
   imports: [
     BrowserModule,
