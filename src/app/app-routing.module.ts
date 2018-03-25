@@ -5,9 +5,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactMeComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
-import {BlogComponent} from './blog/blog.component';
-import { Blog2Component} from './blog2/blog.component';
-import { Blog3Component} from './blog3/blog.component';
+import { BlogComponent } from './blog/blog.component';
+
 const routes: Routes = [
 
   {
@@ -29,23 +28,12 @@ const routes: Routes = [
     component: ContactMeComponent
   },
   {
-    path: 'blog',
+    path: 'blog/:id',
     component: BlogComponent
-  },
-  {
-    path: 'blog-2',
-    component: Blog2Component
-  },
-  {
-    path: 'blog-3',
-    component: Blog3Component
   },
   {
     path: '**',
     redirectTo: 'home',
-
-
-
   }
 
 ];
