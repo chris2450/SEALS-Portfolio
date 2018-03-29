@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { baseUrl } from '../httpBaseUrl/httpbase';
+import { baseUrl } from '../httpBaseUrl/httpBaseUrl';
 import {Router, CanActivate} from '@angular/router';
 @Injectable()
 export class AuthService {
